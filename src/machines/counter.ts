@@ -1,4 +1,4 @@
-import { createMachine, assign, setup } from 'xstate';
+import { assign, setup } from 'xstate';
 
 type Context = {
   count: number;
